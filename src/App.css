@@ -1,42 +1,94 @@
 .main-container{
   width: 28rem;
-  height: 45rem;
+  height: 53rem;
   border: 1px solid black;
-  margin: 25px;
+  margin: auto;
+  align-items: center;
+  /* display: flex; */
+  box-shadow: 3px 2px #888888;
 }
 .option-page{
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  margin: auto;
 }
 .input {
-  height: 36px;
-  width: 240px;
-  border-radius: 19px;
+  height: 30px;
+  width: 300px;
+  border-radius: 25px;
   font-size: 24px;
   margin: 10px;
-  margin-left: 65px;
+  margin-left: 60px;
   padding: 12px;
 }
 .btn{
   height: 46px;
-  width: 240px;
-  border-radius: 19px;
+  width: 320px;
+  border-radius: 25px;
   font-size: 24px;
-  margin: 10px;
+  margin: auto;
   margin-left: 65px;
   padding: 12px;
   background-color: rgb(255, 98, 55)
+  
 }
 .forget-link {
-  margin-left: 298px;
+  /* margin: auto; */
+  margin-left: 315px;
 }
 .logo-img{
   border-radius: 25px;
-  height: 64px;
-  width: 96px;
+  height: 75px;
+  width: 75px;
   margin-left: 30px;
 }
 
 .text{
-  margin-left: 120px;
+  margin-left: 170px;
+}
+.myPage{
+  margin-left: 135px;
+}
+.btm-container{
+  width: 28rem;
+  display: flex;
+}
+.bottom{
+  text-align: center;
+  margin-left: 85px;
+}
+.img-container{
+  width: 28rem;
+  display: flex;
+  /* justify-content: space-between; */
+}
+.img{
+  justify-content: space-between;
+  margin-left: 50px;
+}
+.signup{
+  text-decoration: none;
+  color: black;
+}
+.login{
+  text-decoration: none;
+  color: black;
+}
+.signup:hover{
+  text-decoration: underline;
+  text-decoration-thickness:3px;
+text-decoration-color: red;
+}
+.login:hover{
+  text-decoration: underline;
+  text-decoration-thickness:3px;
+text-decoration-color: red;
+}
+.newLink{
+  color: brown;
+}
+.forget-link{
+  text-decoration: none;
+  color: brown;
 }
