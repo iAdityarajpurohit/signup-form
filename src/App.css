@@ -1,0 +1,42 @@
+.main-container{
+  width: 28rem;
+  height: 45rem;
+  border: 1px solid black;
+  margin: 25px;
+}
+.option-page{
+  display: flex;
+  justify-content: space-around;
+}
+.input {
+  height: 36px;
+  width: 240px;
+  border-radius: 19px;
+  font-size: 24px;
+  margin: 10px;
+  margin-left: 65px;
+  padding: 12px;
+}
+.btn{
+  height: 46px;
+  width: 240px;
+  border-radius: 19px;
+  font-size: 24px;
+  margin: 10px;
+  margin-left: 65px;
+  padding: 12px;
+  background-color: rgb(255, 98, 55)
+}
+.forget-link {
+  margin-left: 298px;
+}
+.logo-img{
+  border-radius: 25px;
+  height: 64px;
+  width: 96px;
+  margin-left: 30px;
+}
+
+.text{
+  margin-left: 120px;
+}
